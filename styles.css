@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: white;
+}
+
+.app {
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.count {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+}
+
+.info {
+  margin-top: 30px;
+  opacity: 0.8;
+}
